@@ -36,8 +36,9 @@
       text-align: center; }
       .header .header_top .dl i {
         display: block;
-        font-size: 12px;
-        font-style: normal; }
+        font-size: 0.012rem;
+        font-style: normal;
+        color: #fff; }
     .header .header_top .search {
       float: right;
       width: .26rem;
