@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  background: #fff;
+  position: fixed;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+  z-index: 90;
+  width: 100%;
+  top: 0;
+  left: 0; }
+  .header .header_top {
+    width: 100%;
+    height: .4rem;
+    background: #fff;
+    margin-top: .056rem; }
+    .header .header_top .logo {
+      float: left;
+      width: .8rem;
+      height: .35rem;
+      background: url(../../imgs/logo.png);
+      background-size: .8rem .35rem;
+      margin-left: .14rem; }
+    .header .header_top .dl {
+      float: left;
+      width: .75rem;
+      height: .28rem;
+      background: #fe960e;
+      line-height: .28rem;
+      color: #fff;
+      margin-left: .05rem;
+      margin-top: .05rem;
+      border-radius: .28rem;
+      text-align: center; }
+      .header .header_top .dl i {
+        display: block;
+        font-size: 12px;
+        font-style: normal; }
+    .header .header_top .search {
+      float: right;
+      width: .26rem;
+      height: .26rem;
+      background: url(../../imgs/research_2x.png) no-repeat;
+      background-size: .26rem .26rem;
+      margin-right: .14rem;
+      margin-top: .084rem; }
+  .header .header_bottom {
+    width: 100%;
+    height: .38rem;
+    display: flex; }
+    .header .header_bottom .recommended {
+      width: 1.2375rem;
+      height: .38rem;
+      text-align: center;
+      line-height: .38rem; }
+      .header .header_bottom .recommended i {
+        display: block;
+        font-size: .16rem;
+        font-style: normal; }
+    .header .header_bottom .ranking {
+      width: 1.2375rem;
+      height: .38rem;
+      text-align: center;
+      line-height: .38rem; }
+      .header .header_bottom .ranking i {
+        display: block;
+        font-size: .16rem;
+        font-style: normal; }
+    .header .header_bottom .type {
+      width: 1.2375rem;
+      height: .38rem;
+      text-align: center;
+      line-height: .38rem; }
+      .header .header_bottom .type i {
+        display: block;
+        font-size: .16rem;
+        font-style: normal; }
+
+.active div i {
+  color: #fe960e; }
