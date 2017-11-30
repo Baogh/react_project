@@ -37,6 +37,14 @@
         "^/get_data": "/get_data"
       },
       "ws": true
+    },
+    "/user": {
+      "target": "http://localhost:3001",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/user": "/user"
+      },
+      "ws": true
     }
   }
 }
