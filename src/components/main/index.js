@@ -20,7 +20,7 @@ class Main extends React.Component {
         var that = this;
         axios.get('/api/v3/home?page=1')
             .then((res) => {
-                console.log(res)
+                //console.log(res)
                 that.setState({
                     choose_data: res.data.datas.items[2],
                     choose_data_mes: res.data.datas.items[2].items,
@@ -36,7 +36,7 @@ class Main extends React.Component {
         //console.log(this.state.mes)
         var list = this.state.mes;
         //console.log(list.items)
-        console.log(this.state.show_data)
+        //console.log(this.state.show_data)
         var chooseData = this.state.choose_data
         var showData = this.state.show_data
 

@@ -9,25 +9,25 @@ class Swiper extends React.Component {
     constructor() {
         super();
         this.state = {
-          imgs: []
+            imgs: []
         }
     }
     componentDidMount() {
         var that = this;
         axios.get("/api/v3/home?page=1")
-            .then(function(res){
+            .then(function(res) {
                 console.log(res);
                 that.setState({
-                imgs: res.data.datas.items[0].items
+                    imgs: res.data.datas.items[0].items
+                })
             })
-        })
     }
 
     render() {
-        console.log(this.state)
-        var list = this.state.imgs.map((item, index)=>{
-        return (
-            <div key={item.id}>
+        //console.log(this.state)
+        var list = this.state.imgs.map((item, index) => {
+            return (
+                <div key={item.id}>
                 <img src={item.pic_url} />
             </div>
             )

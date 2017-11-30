@@ -1,0 +1,36 @@
+main{
+	width: 100%;
+	margin-top: .85rem;
+    overflow: hidden;
+    text-align: center;
+    color: #B5B5B5;
+    padding: .075rem;
+    display: flex;
+    
+    .ranking_main{
+    	width: 33.3%;
+    	height: 2.48rem;
+    	float: left;
+    	img{
+    		display: inline-block;
+    		text-align: center;
+    		width: 1.0875rem;
+    		height: auto;
+    		border:none;
+    	}
+    	.p1{
+			    color: #333;
+	/*		    display: block;*/
+			    max-height: .38rem;
+			    overflow: hidden;
+			    font-size: .14rem;
+			}
+			.p2{
+			/*	display: block;*/
+    			color: #999;
+			    font-size: .12rem;
+			    overflow: hidden;
+			}
+    }
+
+}
